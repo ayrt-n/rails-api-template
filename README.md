@@ -7,7 +7,7 @@ The template it based off of the template provided in "The Complete Guide to Rai
 To use the template when creating a new rails application, you must append "-m https://raw.githubusercontent.com/ayrt-n/rails-api-template/main/application_template.rb" to the end of your call to rails new, like so:
 
 ```
-rails new new_rails_api -T -m https://raw.githubusercontent.com/ayrt-n/rails-api-template/main/application_template.rb
+rails new new_rails_api -d=postgresql -T -m https://raw.githubusercontent.com/ayrt-n/rails-api-template/main/application_template.rb
 ```
 
 ## Application Template Details
